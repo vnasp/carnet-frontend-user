@@ -6,7 +6,7 @@
         <img width="40" src="/chile_bandera.png" alt="" />
       </div>
       <img src="/foto_elon.jpg" alt="" />
-      <p>RUN {{RUN}}</p>
+      <p>RUN {{ run }}</p>
     </aside>
     <main>
       <header>
@@ -16,46 +16,46 @@
       <section>
         <article>
           <header>APELLIDOS</header>
-          <span>{{ Apellidos }}</span>
+          <span>{{ apellidos }}</span>
         </article>
         <article>
           <header>NOMBRES</header>
-          <span>{{ Nombres }}</span>
+          <span>{{ nombres }}</span>
         </article>
 
         <div class="grid-2-colums">
           <article>
             <header>NACIONALIDAD</header>
-            <span>{{ Nacionalidad }}</span>
+            <span>{{ nacionalidad }}</span>
           </article>
           <article>
             <header>SEXO</header>
-            <span>{{ Sexo }}</span>
+            <span>{{ sexo }}</span>
           </article>
         </div>
         <div class="grid-2-colums">
           <article>
             <header>FECHA DE NACIMIENTO</header>
-            <span>{{ FechaNacimiento }} </span>
+            <span>{{ fechaNacimiento }} </span>
           </article>
           <article>
             <header>NÙMERO DOCUMENTO</header>
-            <span>{{ NúmeroDocumento }}</span>
+            <span>{{ numeroDocumento }}</span>
           </article>
         </div>
         <div class="grid-2-colums">
           <article>
             <header>FECHA DE EMISIÒN</header>
-            <span>{{ FechaEmisión }}</span>
+            <span>{{ fechaEmision }}</span>
           </article>
           <article>
             <header>FECHA DE VENCIMIENTO</header>
-            <span>{{ FechaVencimiento }}</span>
+            <span>{{ fechaVencimiento }}</span>
           </article>
         </div>
         <article>
           <header>FIRMA DEL TITULAR</header>
-          <span>{{ Firma }}</span>
+          <span>{{ firma }}</span>
         </article>
       </section>
     </main>
@@ -70,16 +70,16 @@ export default {
   },
   data() {
     return {
-      RUN: "22.222.222-2",
-      Apellidos: "Musk",
-      Nombres: "Elon Reeve",
-      Nacionalidad: "Sudafricano",
-      Sexo: "M",
-      FechaNacimiento: "28 JUN 1971",
-      NúmeroDocumento: "222.222.222",
-      FechaEmisión: "01 ENE 2025",
-      FechaVencimiento: "01 ENE 2030",
-      Firma: "X Æ A-12"
+      run: "22.222.222-2",
+      apellidos: "Musk",
+      nombres: "Elon Reeve",
+      nacionalidad: "Sudafricano",
+      sexo: "M",
+      fechaNacimiento: "28 JUN 1971",
+      numeroDocumento: "222.222.222",
+      fechaEmision: "01 ENE 2025",
+      fechaVencimiento: "01 ENE 2030",
+      firma: "X Æ A-12"
     }
   }
 }
